@@ -1,0 +1,14 @@
+# Hier ist zwar ein Python Projekt, aber wenn man mal eine Klasse versehentlich als Jython startet, wird der Cache trotz der geworfenen Fehler angelegt.
+# Jython cache
+**/.jython_cache/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Eclipse workspace metadata
+.metadata/
+
+# Operating system
+Thumbs.db
+.DS_Store
