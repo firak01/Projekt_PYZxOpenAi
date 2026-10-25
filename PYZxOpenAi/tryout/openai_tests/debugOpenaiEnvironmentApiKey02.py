@@ -26,15 +26,19 @@ from dotenv import load_dotenv
 # Direkt in Windows als Benutzer Umgebungsvariable gesetzt. Dabei die Konvention des Names verwendet.
 # api_key = os.environ.get("OPENAI_API_KEY")
 
-pathToEnv=os.environ.get("sPLENVZZZ")+"\.env"
-
+# Direkt den Pfad angeben zur .env Datei 
 #load_dotenv(
 #    dotenv_path=r"C:\OpenAI\Config\.env"
 #)
+
+# Den Pfad zur .env Datei auslesen. Er wird per Batch gesetzt
+pathToEnv=os.environ.get("sPLENVZZZ")+"\.env"
+
 load_dotenv(
      dotenv_path=pathToEnv
     )
 
+# Noch eine Testvariable, die es nur in der .env Datei gibt. 
 myTest = os.getenv("MY_TEST")
 if not myTest:
     raise RuntimeError("MY_TEST wurde nicht gefunden.")
