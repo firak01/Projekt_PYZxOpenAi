@@ -16,9 +16,14 @@ Created on 24.10.2026
 
 import os
 
-api_key = os.environ.get("OPENAI_API_KEY")
+# Direkt in Windows als Benutzer Umgebungsvariable gesetzt. Dabei die Konvention des Names verwendet.
+# api_key = os.environ.get("OPENAI_API_KEY")
+
+# Per Batch beim Start von Eclipse gesetzt. S. Projekt: Tool_DevEclipseStarter
+api_key = os.environ.get("sOPENAIZZZ")
 
 if api_key:
     print("API-Key vorhanden.")
 else:
     print("API-Key fehlt.")
+    

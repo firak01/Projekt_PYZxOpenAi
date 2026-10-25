@@ -8,7 +8,7 @@
         <listEntry value="1"/>
     </listAttribute>
     <mapAttribute key="org.eclipse.debug.core.environmentVariables">
-        <mapEntry key="OPENAI_API_KEY" value="${env_var:OPENAI_API_KEY}"/>
+        <mapEntry key="OPENAI_API_KEY" value="${env_var:sOPENAIZZZ}"/>
     </mapAttribute>
     <stringAttribute key="org.eclipse.ui.externaltools.ATTR_LOCATION" value="${workspace_loc:PYZxOpenAi/tryout/openai_tests/debugOpenaiEnvironmentApiKey.py}"/>
     <stringAttribute key="org.eclipse.ui.externaltools.ATTR_OTHER_WORKING_DIRECTORY" value="${workspace_loc:PYZxOpenAi/tryout/openai_tests}"/>
